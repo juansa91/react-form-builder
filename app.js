@@ -84,6 +84,11 @@ const App = () => (
     onEditorStateChange={console.log('hola')}
     locale='es'
   // toolbarItems={items}
+    variables={variables}
+    url={url}
+    saveUrl={saveUrl}
+    saveAlways={false}
+    // toolbarItems={items}
   />);
 
 ReactDOM.render(
