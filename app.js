@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import DemoBar from './demobar';
 // eslint-disable-next-line no-unused-vars
@@ -74,14 +75,15 @@ const saveUrl = '/api/formdata';
 //     label: 'Label Input',
 //   },
 // ];
-
+const onEditorStateChange = (state) => {
+  const [editorState, setEditorState] = useState();
+  setEditorState(state);
+};
 const App = () => (
   <FormBuilder.ReactFormBuilder
-    variables={variables}
-    url={url}
-    saveUrl={saveUrl}
-    locale='en'
-    // toolbarItems={items}
+    onEditorStateChange={console.log('hola')}
+    locale='es'
+  // toolbarItems={items}
   />);
 
 ReactDOM.render(

@@ -13,7 +13,7 @@
   "show-time-select-only": "Solo mostrar entrada de tiempo",
   "show-time-input": "Mostrar entrada de tiempo",
   "display-horizontal": "Mostrar horizontal",
-  "variable-key": "Variable Key",
+  "variable-key": "Clave variable",
   "variable-key-desc": "Esto le dará al elemento una clave que se puede usar para reemplazar el contenido con un valor de tiempo de ejecución",
   "print-options": "Imprimir opciones",
   "page-break-before-elements": "Salto de página antes del elemento",
@@ -38,6 +38,7 @@
   "dismiss" : "Descartar",
 
   "place-holder-option-1" : "Opción de referencia 1",
+  "place_holder-option_1" : "Opción de referencia 1",
   "place-holder-option-2" : "Opción de referencia 2",
   "place-holder-option-3" : "Opción de referencia 3",
   "place-holder-tag-1" : "Opción de referencia 1",

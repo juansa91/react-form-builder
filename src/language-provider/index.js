@@ -1,6 +1,6 @@
-import enLang from './entries/en-us';
-import vnLang from './entries/vi-vn';
-import esLang from './entries/es-es';
+import EnLang from './entries/en-US';
+import VnLang from './entries/vi-VN';
+import EsLang from './entries/es-ES';
 
 export const AppLanguages = [
   {
@@ -24,9 +24,9 @@ export const AppLanguages = [
 ];
 
 const AppLocale = {
-  en: enLang,
-  vi: vnLang,
-  es: esLang,
+  en: EnLang,
+  vi: VnLang,
+  es: EsLang,
 };
 
 export default AppLocale;
